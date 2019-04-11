@@ -2,7 +2,7 @@
   <div class="page-home">
     <div class="app-bg"></div>
 
-    <Piano></Piano>
+    <FFPiano></FFPiano>
 
     <div class="page-section-wrap">
       <!--<EasyScore></EasyScore>-->
@@ -15,13 +15,13 @@
 
 <script>
 import Vue from 'vue'
-import Piano from '@/components/Piano'
+import FFPiano from '@/components/FFPiano'
 import PageFooter from '@/components/Footer'
 import EasyScore from '@/components/EasyScore'
 import DemoScore from '@/components/DemoScore'
 
 export default {
-  name: 'Home',
+  name: 'myHome',
   data() {
     return {
       percent: 0
@@ -79,7 +79,7 @@ export default {
     }
   },
   components: {
-    Piano,
+    FFPiano,
     PageFooter,
     EasyScore,
     DemoScore
